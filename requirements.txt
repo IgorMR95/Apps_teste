@@ -1,0 +1,8 @@
+streamlit==1.44.1
+pandas
+PyPDF2
+Pillow
+matplotlib
+streamlit-drawable-canvas
+graphviz
+wordcloud
