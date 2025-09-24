@@ -6,3 +6,5 @@ matplotlib
 streamlit-drawable-canvas
 graphviz
 wordcloud
+streamlit
+google-generativeai
