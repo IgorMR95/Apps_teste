@@ -36,7 +36,7 @@ api_key = st.sidebar.text_input(
 # Só configura a API se a chave for inserida
 if api_key:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash-latest")
+    model = genai.GenerativeModel("gemini-2.5-flash-lite")
 else:
     st.sidebar.warning("⚠️ Insira sua chave API para ativar o chatbot.")
     model = None
@@ -125,4 +125,5 @@ if query and model:
 
 elif query and not model:
     st.warning("⚠️ Insira sua chave API primeiro para obter respostas.")
+
 
